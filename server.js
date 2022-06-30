@@ -9,7 +9,7 @@ app.use(cors());
 
 //routes
 app.use('/', require('./routes/root'))
-app.use('/register', require('./routes/register'))
+app.use('/api/register', require('./routes/register'))
 
 app.listen(port, () => {
     console.log('Server is running with port:' + port);
