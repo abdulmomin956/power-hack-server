@@ -16,6 +16,7 @@ app.use(credentials);
 //routes
 app.use('/', require('./routes/root'))
 app.use('/api/register', require('./routes/register'))
+app.use('/api/login', require('./routes/login'))
 
 app.listen(port, () => {
     console.log('Server is running with port:' + port);
