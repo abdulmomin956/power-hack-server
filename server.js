@@ -38,6 +38,10 @@ app.use('/api/login', require('./routes/login'))
 app.use('/refresh', require('./routes/refresh'));
 app.use('/logout', require('./routes/logout'));
 
+//billings
+app.use('/api/add-billing', require('./routes/addbilling'));
+app.use('/api/billing-list', require('./routes/billinglist'));
+
 app.use(verifyJWT);
 
 app.all('*', (req, res) => {
