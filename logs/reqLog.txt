@@ -242,3 +242,5 @@
 20220701	23:30:06	a507a4fd-99eb-4382-aafa-c54e17d37130	POST	http://localhost:3000	/api/login
 20220701	23:32:53	5dc616a3-77fe-4ddd-9a90-ee2c2e9410d5	OPTIONS	http://localhost:3000	/api/login
 20220701	23:32:53	78834603-454b-4db8-9035-0dd2b622109a	POST	http://localhost:3000	/api/login
+20220701	23:59:49	6c82ddf6-1063-4ee8-b523-610b24d1448b	OPTIONS	http://localhost:3000	/api/login
+20220701	23:59:49	75af2263-9f1f-4d3f-898c-d6644801fd3d	POST	http://localhost:3000	/api/login
